@@ -1,15 +1,23 @@
 /* ========================= IMPORTS ==========================*/
 
-/* font: Great Vibes. */
-
+/* font: Great Vibes. (general purpouse)*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-/* font: Dancing Script. */
 
+/* font: Dancing Script. (menus)*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* menu font: EB Garamond medium 500 italic*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+/* body font: OpenSans regular 400*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 
 /* =========================== BODY =============================*/
 body {
     background-color: #F0F2F2;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -59,7 +67,7 @@ header {
 .menu li {
     border-radius: 5px;
     color: #400101;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
     font-size: 1.5em;
     font-weight: bold;
     float: left;
@@ -79,7 +87,7 @@ header {
 .socialMedia {
     color: #400101;
     float: right;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
     font-size: 1.1em;
     margin-top: 50px;
     margin-right: 40px;
@@ -146,7 +154,7 @@ main {
 
 .products {
     color: #FFF;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'EB Garamond', serif;
     float: left;
     font-size: 4em;
     margin-left: 0.5em;
@@ -165,14 +173,13 @@ main {
     height: 15em;
     margin-left: 10em;
     margin-top: 1em;
-    padding: 0.5em;
+    padding: 1em;
     width: 25em;
 }
 
 .prodDesc p {
     color: #FFF;
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.3em;
+    font-size: 1em;
     margin: 0;
     margin-top: 0.3em;
 }
@@ -190,7 +197,7 @@ main {
 footer {
     border-radius: 5px;
     color: #fff;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'EB Garamond', serif;
     margin-bottom: 30px;
     overflow: hidden;
     padding: 5px 20px 15px 20px;
