@@ -121,7 +121,7 @@ header {
 /* ============== MAIN PORTION OF THE PAGE ====================*/
 main {
     margin: auto;
-    margin-top: 150px;
+    margin-top: 40px;
     width: 99%;
 }
 
@@ -325,6 +325,12 @@ footer {
         text-decoration: none;
     }
 
+    /* ====== MAIN ======== */
+    .prodDesc{
+        margin-left: 2em;
+    }
+
+
      /* FOOTER ============  */
     .visit{
         float: left;
@@ -333,7 +339,8 @@ footer {
     }
 
     .map{
-        width: 316px;
+        height: 250px;
+        width: 250px;
     }
 }
 
