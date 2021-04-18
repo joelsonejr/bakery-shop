@@ -5,7 +5,5 @@ Right now I'm focusing on create responsiviness to this site. After that is done
 
 There are some noticiable glitches on responsiviness, but that is still underway.
 
-The presente state can be seen here:
-# https://joelsonejr.github.io/bakery-shop/
- 
+
 
